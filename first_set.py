@@ -15,7 +15,6 @@ def convert_to_fahrenheit(degrees_celsius):
 
 def convert_to_celsius(degrees_fahrenheit):
     return (degrees_fahrenheit - 32) * 5 / 9
-
 assert convert_to_celsius(0) == -17.77777777777778
 assert convert_to_celsius(180) == 82.22222222222223
 assert convert_to_fahrenheit(0) == 32
@@ -34,7 +33,6 @@ def isOdd(number):
 
 def isEven(number):
     return number % 2 == 0
-
 assert isOdd(42) == False
 assert isOdd(9999) == True
 assert isOdd(-10) == False
@@ -61,7 +59,6 @@ def volume(length, width, height):
 
 def surfaceArea(length, width, height):
     return 2 * (length * width + length * height + width * height)
-
 assert area(10, 10) == 100
 assert area(0, 9999) == 0
 assert area(5, 8) == 40
@@ -106,7 +103,6 @@ def ordinalSuffix(number):
         return f"{number}rd"
     else:
         return f"{number}th"
-    
 assert ordinalSuffix(0) == '0th'
 assert ordinalSuffix(1) == '1st'
 assert ordinalSuffix(2) == '2nd'
