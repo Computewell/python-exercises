@@ -11,7 +11,7 @@ print(f"Hello, {names} !")
 Then write a function named convertToCelsius() with a degreesFahrenheit parameter and returns a number of this temperature in degrees Celsius. """
 
 def convert_to_fahrenheit(degrees_celsius):
-    return degrees_celsius* (9 / 5) + 32
+    return degrees_celsius * (9 / 5) + 32
 
 def convert_to_celsius(degrees_fahrenheit):
     return (degrees_fahrenheit - 32) * 5 / 9
@@ -128,7 +128,7 @@ def printASCIITable():
         print(f"{i}--> {chr(i)}")
 printASCIITable()
 
-# Exercise --> Read And Write File
+# Exercise 8 --> Read And Write File
 """ Write a writeToFile() function with two parameters for the filename of the file and the text to write into the file.
 Second, write an appendToFile() function, which is identical to writeToFile() except that the file opens in append mode instead of write mode. 
 Finally, write a readFromFile() function with one parameter for the filename to open. This function returns the full text contents of the file as a string """
