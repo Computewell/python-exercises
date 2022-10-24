@@ -1,5 +1,5 @@
 # python-exercises
 ## Solving programming questions in python
 
-# TASKS             |          DESCRIPTION
-___________________ | _________________________
+| Project name | Description |
+| ------------ | ----------- |
